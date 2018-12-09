@@ -1,0 +1,26 @@
+html {
+  font-size: 20px;
+  height: 100%;
+}
+body {
+  font-size: 15px;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  overflow: auto;
+  height: 100%;
+}
+input {
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+input:focus {
+  outline: none !important;
+  border-color: #719ECE;
+  box-shadow: 0 0 0px #719ECE;
+}
+mark {
+  background-color: red;
+  padding: 10px;
+}
