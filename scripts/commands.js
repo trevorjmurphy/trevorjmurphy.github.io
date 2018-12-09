@@ -131,6 +131,10 @@ function projectsScene() {
 
 }
 
+function skillsScene() {
+
+}
+
 function resumeScene() {
-  IOHTML("<h3><a class='hyperlink' href='https://docs.google.com/document/d/1NhcgWHDtpD73xH22_MTmXp9c2-JsNKNcFveZSIFZAYY/edit?usp=sharing'>Trevor Murphy's Resume | 284 KBs</a></h3>");
+  IOHTML("<h3><a class='hyperlink' target='_blank' href='https://docs.google.com/document/d/1NhcgWHDtpD73xH22_MTmXp9c2-JsNKNcFveZSIFZAYY/edit?usp=sharing'>Trevor Murphy's Resume | 284 KBs</a></h3>");
 }
