@@ -61,7 +61,7 @@ function IOReady() {
   $('#userInput').keypress(function(event){
       var keycode = (event.keyCode ? event.keyCode : event.which);
       if(keycode == '13'){
-        IOPrint("> <em>" + $(this).val() + "</em>", "lime");
+        IOPrint("> <em>" + $($.parseHTML($(this).val())).text() + "</em>", "lime");
         $(this).val("");
       }
   });
