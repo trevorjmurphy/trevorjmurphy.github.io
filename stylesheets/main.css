@@ -24,3 +24,9 @@ mark {
   background-color: red;
   padding: 10px;
 }
+.container.is-dark::before {
+  background-color: black;
+}
+.container.is-dark>.title {
+  background-color: black;
+}
