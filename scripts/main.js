@@ -30,12 +30,12 @@ function runStart() {
   }, 5900);
 
   setTimeout(function() {
-    loadTextForTime("<mark>trevorjmurphy.github.io GUI unable to load. Launching command line interface...</mark>", 2500, "white");
+    loadTextForTime("<mark>WEB_GUI unable to load. Launching command line interface...</mark>", 2500, "white");
   }, 6900);
 
   setTimeout(function() {
     IOPrint("trevorOS v0.1", "orange");
-    IOPrint("Type HELP for commands", "orange");
+    IOPrint("Type HELP for commands.", "orange");
     IOReady();
   }, 9400);
 
@@ -62,19 +62,32 @@ function IOReady() {
       var keycode = (event.keyCode ? event.keyCode : event.which);
       if(keycode == '13'){
         IOPrint("> <em>" + $($.parseHTML($(this).val())).text() + "</em>", "lime");
+        parseCommand($($.parseHTML($(this).val())).text());
         $(this).val("");
       }
   });
 }
 
-
 function IOPrint(text) {
-  $('#console').append('<p>' + text + '</p>');
-  $('.scrollOnly').scrollTop($('.scrollOnly')[0].scrollHeight);
-  $('body').height();
+  $('#console').append('<br><p>' + text + '</p>');
+  scrollFix();
 }
 
 function IOPrint(text, color) {
   $("#console").append('<p style="color: ' + color + '">' + text + '</p>');
+  scrollFix();
+}
+
+function IOContainer(text, style) {
+  $("#console").append('<div class="container" style="' + style + '">' + text + '</div>');
+  scrollFix();
+}
+
+function IOHTML(text) {
+  $("#console").append(text);
+  scrollFix();
+}
+
+function scrollFix() {
   $('.scrollOnly').scrollTop($('.scrollOnly')[0].scrollHeight);
 }
