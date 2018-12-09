@@ -70,10 +70,11 @@ function IOReady() {
 
 function IOPrint(text) {
   $('#console').append('<p>' + text + '</p>');
-  $('#console').scrollTop($('#console')[0].scrollHeight);
+  $('.scrollOnly').scrollTop($('.scrollOnly')[0].scrollHeight);
+  $('body').height();
 }
 
 function IOPrint(text, color) {
   $("#console").append('<p style="color: ' + color + '">' + text + '</p>');
-  $('#console').scrollTop($('#console')[0].scrollHeight);
+  $('.scrollOnly').scrollTop($('.scrollOnly')[0].scrollHeight);
 }

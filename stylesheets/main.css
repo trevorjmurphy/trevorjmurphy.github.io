@@ -23,11 +23,16 @@ input:focus {
 }
 mark {
   background-color: red;
-  padding: 10px;
+  padding: 2px;
 }
 .container.is-dark::before {
   background-color: black;
 }
 .container.is-dark>.title {
   background-color: black;
+}
+
+.scrollOnly {
+  overflow-y: auto;
+  height: 100%;
 }
