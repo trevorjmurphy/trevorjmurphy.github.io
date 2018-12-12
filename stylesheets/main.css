@@ -87,3 +87,15 @@ a:hover {
 button {
   margin-left: 5px;
 }
+
+.icon.star.is-empty::before {
+  width: 2px;
+  height: 2px;
+  box-shadow: 16px 2px #adafbb,14px 4px #adafbb,18px 4px #adafbb,14px 6px #adafbb,18px 6px #adafbb,12px 8px #adafbb,20px 8px #adafbb,12px 10px #adafbb,20px 10px #adafbb,2px 12px #adafbb,4px 12px #adafbb,6px 12px #adafbb,8px 12px #adafbb,10px 12px #adafbb,12px 12px #adafbb,22px 12px #adafbb,24px 12px #adafbb,26px 12px #adafbb,28px 12px #adafbb,30px 12px #adafbb,2px 14px #adafbb,30px 14px #adafbb,4px 16px #adafbb,28px 16px #adafbb,6px 18px #adafbb,26px 18px #adafbb,8px 20px #adafbb,24px 20px #adafbb,6px 22px #adafbb,26px 22px #adafbb,6px 24px #adafbb,26px 24px #adafbb,4px 26px #adafbb,16px 26px #adafbb,28px 26px #adafbb,4px 28px #adafbb,12px 28px #adafbb,14px 28px #adafbb,18px 28px #adafbb,20px 28px #adafbb,28px 28px #adafbb,2px 30px #adafbb,8px 30px #adafbb,10px 30px #adafbb,22px 30px #adafbb,24px 30px #adafbb,30px 30px #adafbb,2px 32px #adafbb,4px 32px #adafbb,6px 32px #adafbb,26px 32px #adafbb,28px 32px #adafbb,30px 32px #adafbb;
+}
+
+@-moz-document url-prefix() {
+  .icon.star.is-empty::before {
+    -webkit-box-shadow: 16px 2px 0 0.020em #adafbb,14px 4px 0 0.020em #adafbb,18px 4px 0 0.020em #adafbb,14px 6px 0 0.020em #adafbb,18px 6px 0 0.020em #adafbb,12px 8px 0 0.020em #adafbb,20px 8px 0 0.020em #adafbb,12px 10px 0 0.020em #adafbb,20px 10px 0 0.020em #adafbb,2px 12px 0 0.020em #adafbb,4px 12px 0 0.020em #adafbb,6px 12px 0 0.020em #adafbb,8px 12px 0 0.020em #adafbb,10px 12px 0 0.020em #adafbb,12px 12px 0 0.020em #adafbb,22px 12px 0 0.020em #adafbb,24px 12px 0 0.020em #adafbb,26px 12px 0 0.020em #adafbb,28px 12px 0 0.020em #adafbb,30px 12px 0 0.020em #adafbb,2px 14px 0 0.020em #adafbb,30px 14px 0 0.020em #adafbb,4px 16px 0 0.020em #adafbb,28px 16px 0 0.020em #adafbb,6px 18px 0 0.020em #adafbb,26px 18px 0 0.020em #adafbb,8px 20px 0 0.020em #adafbb,24px 20px 0 0.020em #adafbb,6px 22px 0 0.020em #adafbb,26px 22px 0 0.020em #adafbb,6px 24px 0 0.020em #adafbb,26px 24px 0 0.020em #adafbb,4px 26px 0 0.020em #adafbb,16px 26px 0 0.020em #adafbb,28px 26px 0 0.020em #adafbb,4px 28px 0 0.020em #adafbb,12px 28px 0 0.020em #adafbb,14px 28px 0 0.020em #adafbb,18px 28px 0 0.020em #adafbb,20px 28px 0 0.020em #adafbb,28px 28px 0 0.020em #adafbb,2px 30px 0 0.020em #adafbb,8px 30px 0 0.020em #adafbb,10px 30px 0 0.020em #adafbb,22px 30px 0 0.020em #adafbb,24px 30px 0 0.020em #adafbb,30px 30px 0 0.020em #adafbb,2px 32px 0 0.020em #adafbb,4px 32px 0 0.020em #adafbb,6px 32px 0 0.020em #adafbb,26px 32px 0 0.020em #adafbb,28px 32px 0 0.020em #adafbb,30px 32px 0 0.020em #adafbb;
+  }
+}
