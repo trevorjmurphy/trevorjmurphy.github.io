@@ -34,7 +34,7 @@ function parseCommand(text) {
 }
 
 function helpScene(){
-  IOHTML("<table class='table col-md-12 table-bordered'><tr class='col-md-12'><td>about_me</td><td>education</td><td>employment</td></tr><tr><td>projects</td><td>skills</td><td>resume</td></tr></table>");
+  IOHTML("<table class='table col-md-12'><tr class='col-md-12'><td>about_me</td><td>education</td><td>employment</td><td>projects</td></tr><tr><td>skills</td><td>resume</td><td>contact</td><td>credits</td></tr></table>");
 }
 
 function aboutScene() {
@@ -286,32 +286,47 @@ function educationScene() {
 }
 
 function employmentScene() {
-  IOHTML(`<div class="col-md-12">
+  IOHTML(`<div class="col-md-12 container">
   <h4><a href="https://burgundylabs.com" target="_blank" style="color: red">Burgundy Labs | Co-Founder</a></h4>
   <h6 style="color: yellow">October 2017 - Current</h6>
-  <div class="col-md-12 row"><div class="col-md-6"><p><span class="special">&#9671;</span>  Develops the UI/UX using Bootstrap, jQuery, and a custom, in-house Bootstrap/Java framework</p></div>
-  <div class="col-md-6"><p><span class="special">&#9671;</span>  Develops the server using Java and the Play framework</p></div>
-  <div class="col-md-6"><p><span class="special">&#9671;</span>  Manages developers on project goals and issues</p></div>
-  <div class="col-md-6"><p><span class="special">&#9671;</span>  Troubleshoots bugs and deployments of servers and databases (Google Firestore/Docker)</p></div></div>
+  <div class="col-md-12 row"><div class="col-md-6"><p><span class="special">&#9671;</span>  Developed the front-end UI/UX using Bootstrap, jQuery, and a custom, in-house Bootstrap/Java framework</p></div>
+  <div class="col-md-6"><p><span class="special">&#9671;</span>  Developed the back-end server using Java and the Play framework</p></div>
+  <div class="col-md-6"><p><span class="special">&#9671;</span>  Managed developers and interns on project goals and issues</p></div>
+  <div class="col-md-6"><p><span class="special">&#9671;</span>  Troubleshot bugs and ran deployments of servers and databases (Google Firestore/Docker)</p></div></div>
 
   <br/><h4><a href="https://github.com/MTUHIDE/CoCoTemp" target="_blank" style="color: cyan">CoCoTemp | Front-end Developer</a></h4>
   <h6 style="color: yellow">August 2017 - October 2017</h6>
-  <div class="col-md-12 row"><div class="col-md-3"><p><span class="special">&#9671;</span>  Filler</p></div>
-  <div class="col-md-9"><p><span class="special">&#9671;</span>  Filler</p></div>
-  <div class="col-md-3"><p><span class="special">&#9671;</span>  Filler</p></div>
-  <div class="col-md-9"><p><span class="special">&#9671;</span>  Filler</p></div></div>
+  <div class="col-md-12 row"><div class="col-md-3"><p><span class="special">&#9671;</span>  Worked with project lead on issues and planning</p></div>
+  <div class="col-md-9"><p><span class="special">&#9671;</span>  Designed and created pages to be used in final site</p></div>
+  <div class="col-md-3"><p><span class="special">&#9671;</span>  Troubleshot issues with the UI/UX</p></div>
+  <div class="col-md-9"><p><span class="special">&#9671;</span>  Helped with integration issues between hardware and software</p></div></div>
 
   <br/><h4><a style="color: purple" href="https://www.theislandhouse.com/" target="_blank">Island House Hotel | Dock Porter</a></h4>
   <h6 style="color: yellow">April 2017 - August 2017 && April 2018 - August 2018</h6>
-  <div class="col-md-12 row"><div class="col-md-3"><p><span class="special">&#9671;</span>  Filler</p></div>
-  <div class="col-md-9"><p><span class="special">&#9671;</span>  Filler</p></div>
-  <div class="col-md-3"><p><span class="special">&#9671;</span>  Filler</p></div>
-  <div class="col-md-9"><p><span class="special">&#9671;</span>  Filler</p></div></div>
+  <div class="col-md-12 row"><div class="col-md-3"><p><span class="special">&#9671;</span>  Worked as a customer service representative for the hotel</p></div>
+  <div class="col-md-9"><p><span class="special">&#9671;</span>  Was the first and last person to help the guests</p></div>
+  <div class="col-md-3"><p><span class="special">&#9671;</span>  Moved bags from the docks of the island to the hotel and vice versa</p></div>
+  <div class="col-md-9"><p><span class="special">&#9671;</span>  Helped resolve issues with missing luggage and guests</p></div></div>
   </div>`);
 }
 
 function projectsScene() {
-  IOHTML(`<table class="table col-md-12 table-bordered"><tr class="col-md-12 row"><th class="col-md-6">Timeslot</th><th class="col-md-6">Medium Feed</th></tr></table>`);
+  IOHTML(`
+  <table class="table col-md-12 table-bordered">
+    <tr class="col-md-12 row">
+      <th class="col-md-6" style="color: GoldenRod">Timeslot <span style="color: white">|</span> <a target="_blank" href="https://github.com/Burgundy-Labs/TimeSlot/">Github</a></th>
+      <th class="col-md-6" style="color: GoldenRod">Medium Feed <span style="color: white">|</span> <a target="_blank" href="https://github.com/Ghosts/medium-feed">Github</a> <span style="color: white">|</span> <a target="_blank" href="https://www.npmjs.com/package/medium-feed">npm</a> <span style="color: white">|</span> <a target="_blank" href="https://ghosts.github.io/medium-feed/">demo</a></th>
+    </tr>
+    <tr class="col-md-12 row">
+      <td class="col-md-6">
+        A web application to allow learning centers to schedule + manage appointments, view schedules, and gather statistics about the center itself. Product of Burgundy Labs.
+      </td>
+      <td class="col-md-6">
+      A simple & small medium-utility to get article objects for any Medium user, topic, or tag.
+      Additionally, medium-feed allows for both synchronous & asynchronous usage, as well as a CORS proxy for local development.
+      </td>
+    </tr>
+  </table>`);
 }
 
 function skillsScene() {
