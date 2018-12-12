@@ -374,7 +374,7 @@ function contactScene() {
       <h4 class="title">Contact me!</h4>
       <h5><i class="icon github huge"></i> <a style="color: white" target="_blank" href="https://github.com/trevorjmurphy">Github: @trevorjmurphy</a></h5>
       <h5><i class="icon twitter huge"></i> <a style="color: dodgerblue" target="_blank" href="https://twitter.com/UserModel">Twitter: @UserModel</a></h5>
-      <h5><a style="color: red" target="_blank" href="mailto:trevorjmurphy@gmail.com">Email: trevorjmurphy@gmail.com</a></h5>
+      <h5><a style="color: red" target="_blank" href="mailto:tmurphy@burgundylabs.com">Email: tmurphy@burgundylabs.com</a></h5>
     </div>
   `);
 }
