@@ -39,7 +39,7 @@ function runStart() {
   //   IOReady();
   // }, 9400);
 
-    IOPrint("trevorOS v0.4", "orange");
+    IOPrint("trevorOS v1.0", "orange");
     IOPrint("Type HELP for commands.", "orange");
     IOReady();
 }
