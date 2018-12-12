@@ -283,15 +283,35 @@ function educationScene() {
 
 
 </span></code></div></div></div></div>`);
-  IOHTML(``);
 }
 
 function employmentScene() {
+  IOHTML(`<div class="col-md-12">
+  <h4><a href="https://burgundylabs.com" target="_blank" style="color: red">Burgundy Labs | Co-Founder</a></h4>
+  <h6 style="color: yellow">October 2017 - Current</h6>
+  <div class="col-md-12 row"><div class="col-md-6"><p><span class="special">&#9671;</span>  Develops the UI/UX using Bootstrap, jQuery, and a custom, in-house Bootstrap/Java framework</p></div>
+  <div class="col-md-6"><p><span class="special">&#9671;</span>  Develops the server using Java and the Play framework</p></div>
+  <div class="col-md-6"><p><span class="special">&#9671;</span>  Manages developers on project goals and issues</p></div>
+  <div class="col-md-6"><p><span class="special">&#9671;</span>  Troubleshoots bugs and deployments of servers and databases (Google Firestore/Docker)</p></div></div>
 
+  <br/><h4><a href="https://github.com/MTUHIDE/CoCoTemp" target="_blank" style="color: cyan">CoCoTemp | Front-end Developer</a></h4>
+  <h6 style="color: yellow">August 2017 - October 2017</h6>
+  <div class="col-md-12 row"><div class="col-md-3"><p><span class="special">&#9671;</span>  Filler</p></div>
+  <div class="col-md-9"><p><span class="special">&#9671;</span>  Filler</p></div>
+  <div class="col-md-3"><p><span class="special">&#9671;</span>  Filler</p></div>
+  <div class="col-md-9"><p><span class="special">&#9671;</span>  Filler</p></div></div>
+
+  <br/><h4><a style="color: purple" href="https://www.theislandhouse.com/" target="_blank">Island House Hotel | Dock Porter</a></h4>
+  <h6 style="color: yellow">April 2017 - August 2017 && April 2018 - August 2018</h6>
+  <div class="col-md-12 row"><div class="col-md-3"><p><span class="special">&#9671;</span>  Filler</p></div>
+  <div class="col-md-9"><p><span class="special">&#9671;</span>  Filler</p></div>
+  <div class="col-md-3"><p><span class="special">&#9671;</span>  Filler</p></div>
+  <div class="col-md-9"><p><span class="special">&#9671;</span>  Filler</p></div></div>
+  </div>`);
 }
 
 function projectsScene() {
-
+  IOHTML(`<table class="table col-md-12 table-bordered"><tr class="col-md-12 row"><th class="col-md-6">Timeslot</th><th class="col-md-6">Medium Feed</th></tr></table>`);
 }
 
 function skillsScene() {
@@ -299,7 +319,6 @@ function skillsScene() {
 }
 
 function creditsScene() {
-
 }
 
 function resumeScene() {

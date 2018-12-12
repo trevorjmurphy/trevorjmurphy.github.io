@@ -43,11 +43,9 @@ mark {
 
 a {
   opacity: 1;
-  text-decoration: none;
 }
 a:hover {
   opacity:0.9
-  text-decoration: none;
 }
 
 .notable {
@@ -79,4 +77,12 @@ a:hover {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: grey;
+}
+
+.special {
+  font-size:1em; vertical-align:+0.15em;
+}
+
+button {
+  margin-left: 5px;
 }
