@@ -25,6 +25,9 @@ function parseCommand(text) {
     case "credits":
       creditsScene();
       break;
+    case "contact":
+      contactScene();
+      break;
     case "clear":
       $("#console").text("");
       break;
@@ -354,6 +357,26 @@ function skillsScene() {
 }
 
 function creditsScene() {
+  IOHTML(`
+    <div class="col-md-12 container is-dark with-title">
+      <h4 class="title">Credit to:</h4>
+      <h7>My parents, for all the support they have given me!</h7><br>
+      <h7>Caden, who has helped me start my developer career! (Check out his Github: <a href="https://github.com/ghosts" target="_blank">link</a>)</h7><br>
+      <h7>Bootstrap and jQuery, for helping me make this site! (Bootstrap: <a href="https://getbootstrap.com/" target="_blank">link</a> | jQuery: <a href="https://jquery.com/" target="_blank">link</a>)</h7><br>
+      <h7>And to everyone who has helped develop nes.css, cause this framework is amazing! (Check it out on Github: <a href="https://github.com/nostalgic-css/NES.css" target="_blank">link</a>)</h7>
+    </div>
+  `);
+}
+
+function contactScene() {
+  IOHTML(`
+    <div class="col-md-12 container is-dark with-title">
+      <h4 class="title">Contact me!</h4>
+      <h5><i class="icon github huge"></i> <a style="color: white" target="_blank" href="https://github.com/trevorjmurphy">Github: @trevorjmurphy</a></h5>
+      <h5><i class="icon twitter huge"></i> <a style="color: dodgerblue" target="_blank" href="https://twitter.com/UserModel">Twitter: @UserModel</a></h5>
+      <h5><a style="color: red" target="_blank" href="mailto:trevorjmurphy@gmail.com">Email: trevorjmurphy@gmail.com</a></h5>
+    </div>
+  `);
 }
 
 function resumeScene() {
