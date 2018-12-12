@@ -362,6 +362,7 @@ function creditsScene() {
       <h4 class="title">Credit to:</h4>
       <h7>My parents, for all the support they have given me!</h7><br>
       <h7>Caden, who has helped me start my developer career! (Check out his Github: <a href="https://github.com/ghosts" target="_blank">link</a>)</h7><br>
+      <h7>Carlee, who drew the art that I use for my avatar! (Check out her art on Instagram: <a href="https://www.instagram.com/carleevictoriaart/" target="_blank">link</a>)</h7><br>
       <h7>Bootstrap and jQuery, for helping me make this site! (Bootstrap: <a href="https://getbootstrap.com/" target="_blank">link</a> | jQuery: <a href="https://jquery.com/" target="_blank">link</a>)</h7><br>
       <h7>And to everyone who has helped develop nes.css, cause this framework is amazing! (Check it out on Github: <a href="https://github.com/nostalgic-css/NES.css" target="_blank">link</a>)</h7>
     </div>
