@@ -5,6 +5,9 @@
   <title>Hi, I'm Trevor</title>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130888672-1"></script>
   <script>
+	if (location.protocol !== "https:") {
+	  location.protocol = "https:";
+	}
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
